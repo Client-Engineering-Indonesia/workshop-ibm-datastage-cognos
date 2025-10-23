@@ -1,4 +1,4 @@
-# Workshop DataStage and Cognos Analytics will be conducted in Half Day Session
+## Workshop DataStage and Cognos Analytics Half Day Session
 
 ## Overview
 IBM DataStage and Cognos Analytics empower your business by integrating, transforming, and visualizing data to drive smarter decisions. 
@@ -11,7 +11,4 @@ With **DataStage**, you can automate data integration and pipeline processes acr
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/aef1b9b2-e52a-4e7f-b9ea-3cc41b10722b" />
 </div>
 
-
-<i>
-Please note that the agenda is provided for reference and may be adjusted as needed.
-</I>
+<p align="center"><i>Please note that the agenda is provided for reference and may be adjusted as needed.</i></p>
