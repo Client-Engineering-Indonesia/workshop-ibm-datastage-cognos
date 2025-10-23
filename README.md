@@ -13,5 +13,5 @@ With **DataStage**, you can automate data integration and pipeline processes acr
 
 
 <i>
-The agenda listed above is for reference only and may not reflect the actual workshop time or duration. Workshop times and duration are subject to change.
+Please note that the agenda is provided for reference and may be adjusted as needed.
 </I>
