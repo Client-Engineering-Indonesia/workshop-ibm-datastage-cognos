@@ -8,7 +8,7 @@ With **DataStage**, you can automate data integration and pipeline processes acr
 
 ## Agenda
 <div align="center">
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/aef1b9b2-e52a-4e7f-b9ea-3cc41b10722b" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/2d60c7fd-153d-4cb2-b44f-f4488ee17dcb" />
 </div>
 
 <p align="center"><i>Please note that the agenda is provided for reference and may be adjusted as needed.</i></p>
