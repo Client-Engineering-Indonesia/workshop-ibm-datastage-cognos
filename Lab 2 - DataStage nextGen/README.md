@@ -14,9 +14,7 @@ Use the cluster link provided by your instructor.
 
 ## ⚙️ Lab Setup (Building the flow)
 
-To begin, download the **DataStage Lab Project ZIP file** from Box in the link provided below.
-
-* https://ibm.ent.box.com/s/th0lz0x2eqa34duiqa9zc66g83mek988
+To begin, download the **DataStage Lab Project ZIP file** [here](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%202%20-%20DataStage%20nextGen/DataStage-Project.zip)
 
 To get started, head to the shared SW cluster homepage. Navigate to Create a **new project**.
 
