@@ -3,6 +3,15 @@
 ## Overview
 IBM DataStage and Cognos Analytics empower your business by integrating, transforming, and visualizing data to drive smarter decisions. 
 
+# Environment Setup 
+This guide helps you access and set up the tools used during the workshop: Langflow, Elasticsearch (Watsonx Discovery), Watsonx Orchestrate, and Watsonx.ai.
+
+### Create IBM ID
+Create an IBM Id if you do not have one using [IBM ID Sign Up Form](https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776).  
+Use **the same email** that you have registered for the workshop with.
+
+📖 See documentation: [Creating an IBM ID](https://www.ibm.com/docs/en/cds-saas-flex?topic=support-how-create-ibmid).
+
 With **DataStage**, you can automate data integration and pipeline processes across multiple sources, ensuring data consistency and efficiency. 
 **Cognos Analytics** enables teams to explore, analyze, and visualize insights through intuitive dashboards and AI-powered recommendations — helping you and your organization save time, reduce complexity, and unlock the full value of your data.
 
