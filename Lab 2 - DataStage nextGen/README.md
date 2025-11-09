@@ -8,7 +8,11 @@ Use the cluster link provided by your instructor.
     *   URL: **https://ibm.biz/BdbKVq**
     *   Username: Key in your student id (`user1` – `user10`)
 
-2.  Enter `Password2025!` for the password.
+2.  **Access the shared cluster 2:**
+    *   URL: **https://ibm.biz/BdbGEH**
+    *   Username: Key in your student id (`user11` – `user11`)
+
+3.  Enter `Password2025!` for the password.
 
 ---
 
