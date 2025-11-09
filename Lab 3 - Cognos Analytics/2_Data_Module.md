@@ -55,7 +55,7 @@ This ensures column names are standardized for easier data modeling.
 You’ve successfully Makinf a data module in IBM Cognos Analytics for analysis.
 
 > 💡 Next Steps:  
-> - #### [Continue to 3. Making Dashboards](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/2_Data_Module.md)
+> - #### [Continue to 3. Making Dashboards](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/3_Dashboards.md)
 
 
 ---
