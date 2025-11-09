@@ -21,8 +21,11 @@ Select **DB2** as your database type, and set the tenant to **None**.
 ---
 
 ## 🔗 Step 3 – Copy the JDBC URL
-Copy your DB2 JDBC connection URL from your IBM Cloud or database instance.  
-You’ll need this in the next step.
+Copy your DB2 JDBC connection URL from the DB that we already provided.
+
+```text
+jdbc:db2://5dd7e749-de1b-4e23-9eb2-417703a46078-ausyd.bt1ibm.db2.ibmappdomain.cloud:31487/bludb:sslConnection=true;
+```
 
 ![3.](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/3.%20copy%20paste%20url%20of%20jdbc.png)
 
@@ -38,6 +41,13 @@ Then select the proper **Dispatcher**.
 
 ## ✅ Step 5 – Test the Connection
 Enter your DB2 credentials and click **Test Connection** to verify successful setup.
+
+It will ask you for the username and password, Please fill the username and passwords with text below:
+
+```Text
+Username : d41ff54d
+Password : bQjyqtj5JSYoMupY
+```
 
 ![5](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/5.%20test%20the%20connections.png)
 
