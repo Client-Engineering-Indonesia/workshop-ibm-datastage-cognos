@@ -8,7 +8,7 @@ This tutorial guides you through connecting IBM Cognos Analytics to an IBM DB2 d
 ## ⚙️ Step 1 – Open Data Server Connections
 Click on **Data Server Connections** from the left navigation menu.
 
-![](1.%20click%20data%20server.png)
+![1.click data server](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/1.%20click%20data%20server.png)
 
 ---
 
