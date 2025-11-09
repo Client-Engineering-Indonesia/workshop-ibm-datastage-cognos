@@ -1,109 +1,212 @@
-# 🧭 IBM Cognos Analytics Tutorial  
-## How to Create a Scheduled Job in IBM Cognos Analytics
+# 🧠 IBM Cognos Analytics Tutorial  
+## Building a Dashboard (Step-by-Step)
 
-This tutorial will guide you through the process of creating and scheduling a job in **IBM Cognos Analytics**. Follow each step carefully to automate your report delivery.
-
----
-
-### **Step 1 – Open the Content View**
-Navigate to the content view path in Cognos Analytics to access your reports and jobs.
-
-(1. Content view path.png)(https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/1.%20Content%20view%20path.png)
+This tutorial will guide you through the process of creating building an interactive **Dashboard** in **IBM Cognos Analytics**.  
+Follow the images and instructions below from **Step 1 to 27**.
 
 ---
 
-### **Step 2 – Choose Team Content**
-Click on **Team Content** to view shared reports and folders available to your organization.
+## 🪄 Step 1 – Create a New Dashboard
+From the Cognos Analytics home page, click **+ New → Dashboard** to start a new dashboard project.
 
-[2. choose team content.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/2.%20choose%20team%20content.png)
-
----
-
-### **Step 3 – Go to the Directory and Choose Customer Satisfaction Report**
-Browse through the directory until you find the **Customer Satisfaction Report**.
-
-[3. go to the directory and choose Customer Satisfaction Report.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/3.%20go%20to%20the%20directory%20and%20choose%20Customer%20Satisfaction%20Report.png)
+![0.1](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/0.1.%20new%20dashboard.png)
 
 ---
 
-### **Step 4 – Choose Hamburger Menu and Click “New Job”**
-Click on the **hamburger menu (three lines)** next to the report and select **New Job** to create a new automation job.
+## Step 2 – Select a Layout Template
+When prompted to choose a layout, click on the **second tab layout** (or any structure that fits your desired visualization).
 
-[4. choose hamburger menu and click new job.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/4.%20choose%20hamburger%20menu%20and%20click%20new%20job.png)
-
----
-
-### **Step 5 – Add Job Step**
-Add a new **job step** to include your desired report in the job sequence.
-
-[5. add job step.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/5.%20add%20job%20step.png)
+![](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/0.2.%20click%20the%20second%20tab.png)
 
 ---
 
-### **Step 6 – Click Financial and Continue to Find Customer Satisfaction Report**
-In the job step creation window, select **Financial** and continue to find the **Customer Satisfaction Report**.
+## Step 3 – Select a Data Source
+In the new blank dashboard, click **Select a source** on the left panel to connect your dataset or data module.
 
-[6. click financial and continue untuk find the customer satisfaction report.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/6.%20click%20financial%20and%20continue%20untuk%20find%20the%20customer%20satisfaction%20report.png)
-
----
-
-### **Step 7 – Choose Customer Satisfaction Report**
-Select the **Customer Satisfaction Report** from the list to add it to your job.
-
-[7. choose customer satisfaction report.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/7.%20choose%20customer%20satisfaction%20report.png)
+![](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/0.3.%20select%20a%20source.png)
 
 ---
 
-### **Step 8 – Click Edit on the Right Side of the Job That Is Just Created**
-Once the job is created, click **Edit** on the right-hand side to configure its details.
+## Step 4 – Choose Your Data Module
+Go to the **My Content** tab and select your data module (e.g., `Data_module_<your initials>`), then click **Add**.
 
-[8. Click edit on the right side of the job that is just created.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/8.%20Click%20edit%20on%20the%20right%20side%20of%20the%20job%20that%20is%20just%20created.png)
-
----
-
-### **Step 9 – Choose Default Format and Tick “Send Report via Email”**
-Specify the **default format** (e.g., PDF, Excel, CSV) and check the box to **send the report via email** upon completion.
-
-[9. choose default format and tick send report via email.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/9.%20choose%20default%20format%20and%20tick%20send%20report%20via%20email.png)
+![0.4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/0.4.%20select%20my%20content%20and%20data_module_%3Cur%20initials%3E.png)
 
 ---
 
-### **Step 10 – Insert the Email in the Details**
-Enter the **recipient’s email address** where the report will be sent automatically.
+## 🏁 Step 5 – Go to Visualization
+Navigate to **Cognos Analytics**, and from the main menu, open the **Visualization** section.
 
-[10. insert the email in the details .png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/10.%20insert%20the%20email%20in%20the%20details%20.png)
-
----
-
-### **Step 11 – Save the Job**
-Click **Save** to apply your settings and confirm that the job has been created successfully.
-
-[11. save the job.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/11.%20save%20the%20job.png)
+![1](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/1.%20go%20to%20visualization.png)
 
 ---
 
-### **Step 12 – Create a New Schedule**
-After saving, create a **new schedule** for your job to define when and how often it should run.
+## Step 6 – Scroll and Click Summary
+Scroll down and click on **Summary** to start building your visualizations.
 
-[12. create a new schedule.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/12.%20create%20a%20new%20schedule.png)
-
----
-
-### **Step 13 – Save the Schedule**
-Finally, click **Save Schedule** to finalize the automation setup. Your Cognos job will now run automatically according to the defined schedule.
-
-[13. save the schedule.png](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/4.%20Job/13.%20save%20the%20schedule.png)
+![2](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/2.%20scroll%20and%20click%20summary.png)
 
 ---
 
-## ✅ Summary
-You have successfully created and scheduled a job in **IBM Cognos Analytics**.  
-Your selected report will now run automatically and deliver results via email based on the schedule you defined.
+## Step 7 – Adjust the Size and Copy-Paste the Widget 2 Times
+Resize the summary widget to your preferred layout, then duplicate it twice to have three widgets in total.
+
+![3](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/3.%20adjust%20the%20size%20and%20copy%20paste%20the%20widget%202%20times.png)
 
 ---
 
-**Author:** IBM Client Engineering Lab Guide  
-**Tool:** IBM Cognos Analytics  
-**Tutorial Type:** Scheduled Job Automation  
-**Version:** v1.0  
-**Date:** November 2025
+## Step 8 – Add Pie Chart
+Add a **Pie Chart** visualization to the dashboard.
+
+![4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/4.%20add%20Pie%20chart.png)
+
+---
+
+## Step 9 – Add Table Widget
+Add a **Table Widget** visualization to the dashboard.
+
+![5](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/5.%20Add%20Table%20widget.png)
+
+---
+
+## Step 10 – Add Legacy Image
+Insert a **Legacy Image** element to personalize or brand your dashboard.
+
+![6](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/6.%20add%20legacy%20image.png)
+
+---
+
+## Step 11 – Click Visualize Again
+Return to the **Visualize** tab to continue editing your data widgets.
+
+![7](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/7.%20click%20visualize%20again%20.png)
+
+---
+
+## Step 12 – Add Map
+Add a **Map** widget to visualize geographical data.
+
+![8](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/8.%20add%20map.png)
+
+---
+
+## Step 13 – Drag “ID” into the First Summary Widget
+From the data pane, drag the **ID** field into the first summary widget.
+
+![9](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/9.%20drag%20id%20into%20first%20summary%20widget.png)
+
+---
+
+## Step 14 – Drag “Loan Amount” to the Second Widget
+Add the **Loan Amount** measure to the second summary widget.
+
+![10](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/10.%20drag%20loan%20amount%20to%20second%20.png)
+
+---
+
+## Step 15 – Drag “Credit Score” to the Third Summary Widget
+Drop the **Credit Score** field into the third summary widget.
+
+![11](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/11.%20drag%20and%20drop%20credit%20score%20to%20third%20sum%20card.png)
+
+---
+
+## Step 16 – Right-Click Summary and Select Average
+Right-click one of the summary widgets and choose **Average** as the aggregation type.
+
+![11.1](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/11.1.%20right%20click%20summary%20and%20click%20average.png)
+
+---
+
+## Step 17 – Drag “Applied Online” into Size
+Enhance the pie chart by dragging the **Applied Online** field into the **Size** property.
+
+![12](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/12.%20drag%20and%20drop%20applied%20online%20into%20size.png)
+
+---
+
+## Step 18 – Drag “Yes / No” into Segments
+Segment your pie chart by dragging the **Yes or No** field into the **Segments** area.
+
+![13](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/13.Drag%20and%20drop%20the%20yes%20or%20no%20into%20the%20segments.png)
+
+---
+
+## Step 19 – Drag Multiple Fields into the Table
+Drag and drop **ID**, **Applied Online**, **Loan Amount**, **City**, **Total Debt**, and **Credit Score** into the table.
+
+![14](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/14.%20drag%20and%20drop%20ID%20applied%20online%2C%20loan%20amount%2C%20city%2C%20totaldebt%20and%20credit%20score.png)
+
+---
+
+## Step 20 – Hide Summaries in the Table
+Click the table, go to **Properties**, and tick **Hide Summaries** to simplify the view.
+
+![15](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/15.%20click%20the%20table%20go%20to%20properties%20and%20tick%20hide%20summaries.png)
+
+---
+
+## Step 21 – Drag “City”
+Add the **City** field to prepare for map visualization and filtering.
+
+![16](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/16.%20drag%20and%20city%20.png)
+
+---
+
+## Step 22 – Drag “Total Debt”
+Drop **Total Debt** into your desired visualization (for example, a gauge or chart).
+
+![17](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/17.%20drag%20and%20drop%20total%20debt.png)
+
+---
+
+## Step 23 – Drag “City” to Map Widget
+Add **City** to the **Map** widget to visualize locations.
+
+![18](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/18.%20drag%20and%20drop%20city%20to%20map%20widget.png)
+
+---
+
+## Step 24 – Drag “Loan Amount” to Map Widget
+Drop **Loan Amount** into the map to represent value by region.
+
+![19](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/19.%20drag%20and%20drop%20loan%20amount%20to%20map%20widget.png)
+
+---
+
+## Step 25 – Rename the Pie Chart
+Give the pie chart a clear title such as **Application Status**.
+
+![20](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/20.%20renam%20the%20pie%20chart.png)
+
+---
+
+## Step 26 – Filter Data
+Use filters to refine your dashboard results.
+
+![21](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/21.%20filter%20data.png)
+
+---
+
+## Step 27 – Test the Filter (Drag Alhambra City)
+Test the filter by dragging **Alhambra City** to validate interactivity.
+
+![21](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/21.%20drag%20and%20drop%20alhambra%20city%20to%20test%20the%20filter.png)
+
+---
+
+## ✅ Step 28 – Save Your Dashboard
+Once all widgets and filters are configured, save your final dashboard.
+
+![23](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/3.%20Making%20dashbards/23.%20save%20our%20dashboard.png)
+
+---
+
+## 🎉 Congratulations!
+You’ve successfully created a **Data Module** and built an interactive **Dashboard** in **IBM Cognos Analytics**.  
+You can now explore further by adding filters, custom visualizations, or publishing your dashboard for your team.
+
+---
+
+**Author:** IBM Client Engineering – Cognos Analytics Workshop  
+**Format:** Markdown (`.md`) for VS Code / GitHub
