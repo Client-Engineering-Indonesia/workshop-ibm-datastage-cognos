@@ -51,6 +51,13 @@ This ensures column names are standardized for easier data modeling.
 
 ![4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/2.%20Data%20Module%20features/4.%20save%20the%20data%20module_%3Cur%20initials%3E%20in%20my%20content.png)
 
+## 🪜 Step 6 – Upload .CSV provided (Alternative)
+
+1. You could also use an csv and upload it to Cognos analytics.  
+
+![4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/2.%20Data%20Module%20features/4.%20save%20the%20data%20module_%3Cur%20initials%3E%20in%20my%20content.png)
+
+
 ## 🎉 You’re Done!
 You’ve successfully Makinf a data module in IBM Cognos Analytics for analysis.
 
