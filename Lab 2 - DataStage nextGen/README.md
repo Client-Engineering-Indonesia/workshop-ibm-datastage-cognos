@@ -10,7 +10,7 @@ Use the cluster link provided by your instructor.
 
 2.  **Access the shared cluster 2:**
     *   URL: **https://ibm.biz/BdbGEH**
-    *   Username: Key in your student id (`user11` – `user11`)
+    *   Username: Key in your student id (`user11` – `user20`)
 
 3.  Enter `Password2025!` for the password.
 
@@ -198,7 +198,7 @@ all this possibilitiies have the hands on within this document below.
 
 ---
 
-# 👉 1. Specify the key column for the Join stage
+# Step 1. Specify the key column for the Join stage
 
 The `Join_on_ID` node joins the data sets using the `ID` column. The next phase is to join the resulting data set with the credit score data using the `EMAIL_ADDRESS` column. In this task, you will specify `EMAIL_ADDRESS` as a key column. 
 
@@ -243,7 +243,7 @@ The following image shows the DataStage flow is ready for the next step. Now you
 
 ---
 
-# 👉 2.Add credit score data from a PostgreSQL database
+# Step 2.Add credit score data from a PostgreSQL database
 
 1.  In the node palette on the left, expand the **Connectors** section.
 
@@ -266,7 +266,7 @@ The following image shows the DataStage flow with the credit score asset added. 
 
 ---
 
-# 👉 3. Add a Join stage to join the credit score data
+# Step 3. Add a Join stage to join the credit score data
 
 1.  In the node palette, expand the **Stages** section.
 2.  Drag the **Join** stage onto the canvas, and drop the node on the link line between the `Filter_State_Code` and `Sequential_file_1` nodes.
@@ -307,7 +307,7 @@ The following image shows the DataStage flow with a second Join stage added. Now
 
 ---
 
-# 👉 4. Add a Transformer stage to calculate total debt
+# Step 4. Add a Transformer stage to calculate total debt
 
 1.  In the **Stages** section, drag the **Transformer** stage onto the link line between the `Join_on_email` and `Sequential_file_1` nodes.
 2.  Double-click the **Transformer** node to edit its settings.
@@ -333,31 +333,33 @@ The following image shows the DataStage flow with a second Join stage added. Now
 
 ---
 
-# 👉 5. Add interest rate data from a MongoDB database
+# Step 5. Add interest rate data from a MongoDB database
 
 1.  In the node palette, expand the **Connectors** section.
 2.  Drag the **Asset browser** connector to the canvas beside the `CREDIT_SCORE_1` node.
 3.  Locate the asset by selecting **Connection > Trial Connection - Mongo DB > DOCUMENT > DS_INTEREST_RATES**.
 ![17. how to add mongoDB](https://github.com/Client-Engineering-Indonesia/workshop-cdc-datastage/blob/main/Lab%202%20-%20DataStage%20nextGen/Assets/17.%20same%20photo%20as%20in%20documents.png)
 5.  Click the **Preview** icon (👁️) to preview the interest rates for each credit score range.
-6.  Click **Add**.
+6.  Click **Output**, edit column and add column `STARTING_LIMIT` and `ENDING_LIMIT`
+7.  Then click save
 
 ![17. same photo as in documents](https://github.com/Client-Engineering-Indonesia/workshop-cdc-datastage/blob/main/Lab%202%20-%20DataStage%20nextGen/Assets/17.%20same%20photo%20as%20in%20documents%202.png)
 
 ---
 
-# 👉 6. Add a Lookup stage to look up interest rates
+# Step 6. Add a Lookup stage to look up interest rates
 
 1.  In the **Stages** section, drag the **Lookup** stage onto the link line between the `Transformer_1` and `Sequential_file_1` nodes.
 2.  Connect the `DS_INTEREST_RATES_1` connector to the **Lookup\_1** stage.
 3.  Double-click the `DS_INTEREST_RATES_1` node to edit the settings.
 4.  Click the **Output** tab.
-    a. Expand the **Columns** section and click **Edit**.
-    b. Select the `_ID` column and click the **Delete** icon (🗑️).
-    c. Click **Apply and return**, then **Save**.
-5.  Double-click the `Lookup_1` node to edit its settings.
+    - Expand the **Columns** section and click **Edit**.
+    - Select the `_ID` column and click the **Delete** icon (🗑️).
+    - Click **Apply and return**, then **Save**.
+    
+6.  Double-click the `Lookup_1` node to edit its settings.
 
-6.  Expand the **Properties** section.
+7.  Expand the **Properties** section.
 
     * For the **Apply range to columns** field, select `CREDIT_SCORE`.
 
@@ -369,19 +371,20 @@ The following image shows the DataStage flow with a second Join stage added. Now
 
     ![17. same photo as in the document showing tge](https://github.com/Client-Engineering-Indonesia/workshop-cdc-datastage/blob/main/Lab%202%20-%20DataStage%20nextGen/Assets/30.png)
 
-7.  Click the **Output** tab.
-    a. Expand the **Columns** section and click **Edit**.
-    b. Select the `STARTING_LIMIT` and `ENDING_LIMIT` columns.
-    c. Click the **Delete** icon (🗑️) to delete these unnecessary columns.
-    d. Click **Apply and return**.
-8.  Click **Save**.
+8.  Click the **Output** tab.
+    - Expand the **Columns** section and click **Edit**.
+    - Select the `STARTING_LIMIT` and `ENDING_LIMIT` columns.
+    - Click the **Delete** icon (🗑️) to delete these unnecessary columns.
+    - Click **Apply and return**.
+      
+9.  Click **Save**.
 
 > #### 💡 Explainer - Column metadata change propagation
 > When you add/remove columns, **Column metadata change propagation** automatically propagates these changes downstream. For example, when the `STARTING_LIMIT` and `ENDING_LIMIT` columns were deleted, these changes are propagated to the output Sequential File automatically.
 
 ---
 
-# 👉 7 Edit the Sequential file node and run the DataStage flow
+# Step 7 Edit the Sequential file node and run the DataStage flow
 
 1.  Double-click the `Sequential_file_1` node to edit its settings.
 2.  Click the **Input** tab.
@@ -405,8 +408,8 @@ The following image shows that the DataStage flow ran successfully!
 
 ---
 
-## 🏁 Conclusion and Next Steps
+## Conclusion and Next Steps
 
 This section covered the core functionalities of DataStage on Cloud Pak for Data, including how to create projects and modify an existing flow to provide a personalized interest rate for each mortgage applicant. Key concepts and features of DataStage's modernized developer experience were covered – including the Asset Browser and Column Metadata Change Propagation.
 
-## 🎉 Thank you for the participation, Have a pleasent day!.
+## Thank you for the participation, Have a pleasent day!.
