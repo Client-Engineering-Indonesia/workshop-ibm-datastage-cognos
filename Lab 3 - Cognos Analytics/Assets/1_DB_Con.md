@@ -89,7 +89,8 @@ You’ve successfully connected IBM Cognos Analytics to your DB2 database and pr
 ---
 
 ### 🧩 Workshop Info
-- **Instructor:** *[Your Name / IBM Client Engineering Team]*  
+- **Instructor:**  IBM Client Engineering Lab Guide  
 - **Platform:** IBM Cognos Analytics on Cloud  
 - **Database:** IBM DB2 on Cloud  
 - **Objective:** Build, Connect, and Analyze data for smarter insights.
+

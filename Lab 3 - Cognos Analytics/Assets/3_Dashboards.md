@@ -207,6 +207,8 @@ You’ve successfully created a **Data Module** and built an interactive **Dashb
 You can now explore further by adding filters, custom visualizations, or publishing your dashboard for your team.
 
 ---
-
-**Author:** IBM Client Engineering – Cognos Analytics Workshop  
-**Format:** Markdown (`.md`) for VS Code / GitHub
+**Author:** IBM Client Engineering Lab Guide  
+**Tool:** IBM Cognos Analytics  
+**Tutorial Type:** Dashboards 
+**Version:** v1.0  
+**Date:** November 2025

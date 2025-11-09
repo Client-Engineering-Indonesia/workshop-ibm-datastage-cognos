@@ -50,3 +50,10 @@ This ensures column names are standardized for easier data modeling.
 1. Save your module with a unique name, e.g.  
 
 ![4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/2.%20Data%20Module%20features/4.%20save%20the%20data%20module_%3Cur%20initials%3E%20in%20my%20content.png)
+
+---
+**Author:** IBM Client Engineering Lab Guide  
+**Tool:** IBM Cognos Analytics  
+**Tutorial Type:** Scheduled Job Automation  
+**Version:** v1.0  
+**Date:** November 2025
