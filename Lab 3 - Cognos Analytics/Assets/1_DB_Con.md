@@ -16,7 +16,7 @@ Click on **Data Server Connections** from the left navigation menu.
 Click **+** to create a new connection.  
 Select **DB2** as your database type, and set the tenant to **None**.
 
-![](2.%20named%20and%20choose%20db2%20with%20tenant%20as%20none.png)
+![2.](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/2.%20named%20and%20choose%20db2%20with%20tenant%20as%20none.png)
 
 ---
 
@@ -24,7 +24,7 @@ Select **DB2** as your database type, and set the tenant to **None**.
 Copy your DB2 JDBC connection URL from your IBM Cloud or database instance.  
 You’ll need this in the next step.
 
-![](3.%20copy%20paste%20url%20of%20jdbc.png)
+![3.](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/3.%20copy%20paste%20url%20of%20jdbc.png)
 
 ---
 
@@ -32,49 +32,49 @@ You’ll need this in the next step.
 Choose your authentication method — typically **Prompt for username and password**.  
 Then select the proper **Dispatcher**.
 
-![](4.%20authentic%20method%20chos%20prompt%20username%20and%20id%20and%20chose%20the%20dispatchers.png)
+![4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/4.%20authentic%20method%20chos%20prompt%20username%20and%20id%20and%20chose%20the%20dispatchers.png)
 
 ---
 
 ## ✅ Step 5 – Test the Connection
 Enter your DB2 credentials and click **Test Connection** to verify successful setup.
 
-![](5.%20test%20the%20connections.png)
+![5](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/5.%20test%20the%20connections.png)
 
 ---
 
 ## 📋 Step 6 – Select Commands
 Once connected, choose the relevant commands or tables to make available.
 
-![](6.%20select%20all%20the%20commands.png)
+![6](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/6.%20select%20all%20the%20commands.png)
 
 ---
 
 ## 📦 Step 7 – Load Data
 Click **Load "DATA"** to import your data schema into Cognos.
 
-![](7.%20load%20DATA.png)
+![7](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/7.%20load%20%22DATA%22.png)
 
 ---
 
 ## 🧩 Step 8 – Create a New Data Module
 Navigate to **New > Data Module** to begin building your dataset.
 
-![](8.%20new%20data%20module.png)
+![8](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/8.%20new%20data%20module.png)
 
 ---
 
 ## 🧠 Step 9 – Choose Data Server & Database
 Select the data server you configured and your database instance.
 
-![](9.%20chose%20data%20server%20and%20your%20db%20instance.png)
+![9](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/9.%20chose%20data%20server%20and%20your%20db%20instance.png)
 
 ---
 
 ## 📊 Step 10 – Select the Data You Want to Use
 Finally, choose your tables or views and start modeling your data.
 
-![](10.%20choose%20data.png)
+![10](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/1.%20DBConn/10.%20choose%20data.png)
 
 ---
 
