@@ -1,6 +1,6 @@
 #  IBM DataStage Core Lab
 
-### 🔑 Environment Access
+### Environment Access
 
 Use the cluster link provided by your instructor.
 
@@ -16,7 +16,7 @@ Use the cluster link provided by your instructor.
 
 ---
 
-## ⚙️ Lab Setup (Building the flow)
+## Lab Setup (Building the flow)
 
 To begin, download the **DataStage Lab Project ZIP file** [here](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%202%20-%20DataStage%20nextGen/DataStage-Project.zip)
 
@@ -72,7 +72,7 @@ This Core Lab section is divided of two DataStage flows in the project.
 
 ---
 
-## 👉 Task 1: Run an existing DataStage Flow
+## Task: Run an existing DataStage Flow
 
 Let's start with a basic DataStage flow that joins the mortgage applicants and mortgage applications data sets.
 
@@ -92,7 +92,7 @@ The outputs that result to a CSV file in the project. Follow these steps to run 
 
 3.  Click **Flows > DataStage flows**.
 
-4.  Click the **Core Demo NEW Flow_your initials** flow in the list to open it.
+4.  Click the **Core Demo NEW Flow yourinitials** flow in the list to open it.
 
  ![5.Data Stage FLows](https://github.com/Client-Engineering-Indonesia/workshop-cdc-datastage/blob/main/Lab%202%20-%20DataStage%20nextGen/Assets/5.Data%20Stage%20FLows.png)
 
