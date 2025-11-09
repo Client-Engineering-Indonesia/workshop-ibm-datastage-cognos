@@ -1,0 +1,96 @@
+# 🕒 IBM Cognos Analytics Tutorial: How to Create and Schedule a Job
+
+This tutorial will guide you through the step-by-step process of **creating and scheduling a job** in IBM Cognos Analytics.  
+Follow each step carefully, using the screenshots provided for reference.
+
+---
+
+## Step 1 – Go to the Directory and Choose *Customer Satisfaction Report*
+![](3.%20go%20to%20the%20directory%20and%20choose%20Customer%20Satisfaction%20Report.png)
+Navigate to your content directory and locate the **Customer Satisfaction Report**. This is the report you’ll use for the scheduled job.
+
+---
+
+## Step 2 – Choose *Team Content*
+![](2.%20choose%20team%20content.png)
+Go to **Team Content** to access shared reports available in your organization.
+
+---
+
+## Step 3 – Choose the Hamburger Menu and Click *New Job*
+![](4.%20choose%20hamburger%20menu%20and%20click%20new%20job.png)
+Open the **hamburger menu (☰)** and select **New Job** to start creating a job.
+
+---
+
+## Step 4 – Add a Job Step
+![](5.%20add%20job%20step.png)
+In the Job editor, click **Add Step** to specify which report or process will be included in this job.
+
+---
+
+## Step 5 – Click *Financial* and Continue to Find *Customer Satisfaction Report*
+![](6.%20click%20financial%20and%20continue%20untuk%20find%20the%20customer%20satisfaction%20report.png)
+Browse through the **Financial** folder or the relevant directory to find the **Customer Satisfaction Report**.
+
+---
+
+## Step 6 – Choose *Customer Satisfaction Report*
+![](7.%20choose%20customer%20satisfaction%20report.png)
+Select the **Customer Satisfaction Report** to include it as a step in your job.
+
+---
+
+## Step 7 – Click *Edit* on the Right Side of the Job That Was Just Created
+![](8.%20Click%20edit%20on%20the%20right%20side%20of%20the%20job%20that%20is%20just%20created.png)
+Once the job appears in your list, click the **Edit (✏️)** icon to open the job configuration.
+
+---
+
+## Step 8 – Choose Default Format and Tick *Send Report via Email*
+![](9.%20choose%20default%20format%20and%20tick%20send%20report%20via%20email.png)
+In the job details, set the **default output format** (e.g., PDF or Excel) and check **Send report via email**.
+
+---
+
+## Step 9 – Insert the Email in the Details
+![](10.%20insert%20the%20email%20in%20the%20details%20.png)
+Add the recipient’s **email address** where the report will be sent after the job runs.
+
+---
+
+## Step 10 – Save the Job
+![](11.%20save%20the%20job.png)
+Click **Save** to confirm and store your job configuration.
+
+---
+
+## Step 11 – Create a New Schedule
+![](12.%20create%20a%20new%20schedule.png)
+Click on **Create Schedule** to set up when and how often the job will run.
+
+---
+
+## Step 12 – Save the Schedule
+![](13.%20save%20the%20schedule.png)
+After defining your schedule (e.g., daily, weekly, or monthly), click **Save** to finalize it.
+
+---
+
+## ✅ Step 13 – Schedule Job Completed!
+Your **Customer Satisfaction Report job** is now successfully created and scheduled.  
+You will receive the report automatically via email based on the schedule you configured.
+
+---
+
+### 💡 Tips
+- You can manage all your scheduled jobs under **My Content → Schedules**.  
+- Make sure the report runs correctly before automating it.  
+- Modify or disable schedules anytime by editing the job properties.
+
+---
+
+**Author:** IBM Cognos Analytics Workshop  
+**Version:** 1.0  
+**Last Updated:** November 2025
+
