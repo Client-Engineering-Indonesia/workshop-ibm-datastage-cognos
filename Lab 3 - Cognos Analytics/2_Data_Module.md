@@ -55,7 +55,7 @@ This ensures column names are standardized for easier data modeling.
 
 1. You could also use an csv and upload it to Cognos analytics.  
 
-![4](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/2.%20Data%20Module%20features/4.%20save%20the%20data%20module_%3Cur%20initials%3E%20in%20my%20content.png)
+![5](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/Assets/2.%20Data%20Module%20features/5.%20Alternative%20step%20by%20uploading%20csv.png)
 
 
 ## 🎉 You’re Done!
