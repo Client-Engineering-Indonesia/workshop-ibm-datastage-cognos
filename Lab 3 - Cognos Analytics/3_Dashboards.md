@@ -206,6 +206,11 @@ Once all widgets and filters are configured, save your final dashboard.
 You’ve successfully created a **Data Module** and built an interactive **Dashboard** in **IBM Cognos Analytics**.  
 You can now explore further by adding filters, custom visualizations, or publishing your dashboard for your team.
 
+> 💡 Next Steps:  
+> - #### [Continue to 4. Schedule Jobs](https://github.com/Client-Engineering-Indonesia/workshop-ibm-datastage-cognos/blob/main/Lab%203%20-%20Cognos%20Analytics/4_jobs.md)
+
+
+
 ---
 **Author:** IBM Client Engineering Lab Guide  
 **Tool:** IBM Cognos Analytics  
