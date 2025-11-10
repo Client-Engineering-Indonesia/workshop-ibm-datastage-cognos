@@ -1,0 +1,4 @@
+DeptID,DeptName
+123,IBM Software Group
+223,Global Business Service
+324,IBM Lab services

@@ -1,0 +1,8 @@
+EmpID,EmpName,Location,DeptID,BenCode
+2448,Linda Goodman,US,123,61
+5431,Bradley Chen,US,223,42
+1976,Mahima Singh,CA,324,27
+7039,K.Samuel,US,444,7
+8321,Subramanian Krishnan,CA,123,15
+6990,Alejandre Escobosa,MX,324,73
+6127,Sandra Sanches,MX,324,38
